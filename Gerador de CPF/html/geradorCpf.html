@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../JS/script.js" async></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+        <link rel= "stylesheet" href= "../CSS/style.css">
+        <title>Treinamento</title>
+    </head>
+    <body>
+       <div class="container">
+            <div class="header">
+                <div id="menu">
+				    <a href="index.html">Validador de CPF</a>  	|
+				    <a href="geradorCpf.html">Gerador de CPF</a> 	 |
+				    <a href="validadorCnpj.html">Validador de CNPJ</a>    | 
+				    <a href="geradorCnpj.html">Gerador de CNPJ</a>	
+			</div>
+                <h3>Gerador de CPF</h3>
+            </div>
+            <div class="body">
+                <p>
+                    <div  class="calcula">
+                        <h3><span id="resultado"> ___.___.___-__ </span></h3>
+                    </div>
+                <p>
+                <button id="btValidar" onclick="gerarCpf()" >Gerar</button>
+            </div>
+                <div class="footer">
+                    
+            </div>
+       </div>
+    </body>
+</html>

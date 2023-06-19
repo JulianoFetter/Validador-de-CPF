@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+
+}
+.body input {
+    padding: 8px;
+    margin-right:  8px;
+}
+.body button {
+    padding:  8px 16px;
+}
+.footer {
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+#menu{
+    font-size: 140%;
+    background-color: #96ceb8;
+    color: black;
+
+}
+
+
+.calcula {
+	text-align: center;
+	border-style: ridge;
+	border-color: #E7D5B0;
+}
