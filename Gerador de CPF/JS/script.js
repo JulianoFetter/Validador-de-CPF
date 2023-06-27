@@ -14,45 +14,18 @@ function validaCPF() {
         return;
     }
     const digito1 = calcularDigitoVerificador(cpf, 1);
-
     const digito2 = calcularDigitoVerificador(cpf, 2);
     if (!digito1) {
         mostraResultado ('CPF Inválido!', 'red');
         return;
     }
-
     if (!digito2) {
         mostraResultado ('CPF Inválido!', 'red');
         return;
     }
     mostraResultado('CPF válido!', 'green');
     return;
-
 }
-
-function gerarCpf() {
-    let cpf = '';
-    for (let i = 0; i < 9; i++) {
-        cpf += Math.floor(Math.random() * 9);
-    }
-
-    cpf += calcularDigito(cpf);
-    cpf += calcularDigito(cpf);
-
-    mostraResultado((cpf), 'green');
-    return;
-}
-
-function calcularDigito(cpf) {
-    let soma = cpf.split('').reduce((acc, val, index) => {
-      return acc + (val * (index < 8 ? 9 - index : 1));
-    }, 0);
-  
-    let digito = (soma % 11) < 2 ? 0 : (11 - (soma % 11));
-    return digito;
-}
-
-
 function calcularDigitoVerificador(cpf, posicao) {
     const sequencia = cpf.slice(0, 8 + posicao).split('');
     let soma = 0;
@@ -78,3 +51,4 @@ function mostraResultado(texto, cor) {
 function verificaDigitosRepetidos(cpf){
     return cpf.split('').every((d) => d === cpf[0]);
 }
+
