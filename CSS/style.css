@@ -1,40 +1,41 @@
-#cpf {
-    text-align: center;
-}
-.btValidar{
-    font-size: medium;
+body{
+    background-color: rgb(209, 209, 209);
 }
 
-.container {
-    text-align: center;
-
-}
-.body input {
-    padding: 8px;
-    margin-right:  8px;
-}
-.body button {
-    padding:  8px 16px;
-}
-.footer {
-    margin-top: 25px;
-    font-size: 20px;
-
+h3 {
+    font-size: 30px;
 }
 #menu{
-    font-size: 20px;
-    background-color: #ace3ec;
-    color: black;
-
+    background-color: rgb(250, 255, 252);
+    font-size: 25px;
 }
-
-
-.calcula {
-	text-align: center;
-	border-style: ridge;
-	border-color: #E7D5B0;
-}
-.resultado {
+.box {
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    font-size: 30px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    width: 300px;
     text-align: center;
+    
 
+}
+.container {
+    text-align: center;
+}
+
+.button{
+    margin-top: 25px;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer{
+    font-size: 35px;
+    width: bold;
+    padding: 20px;
+    font-weight: bold;
 }
