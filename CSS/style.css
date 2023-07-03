@@ -5,10 +5,12 @@ body{
 h3 {
     font-size: 30px;
 }
+
 #menu{
     background-color: rgb(250, 255, 253);
     font-size: 25px;
 }
+
 .box {
     padding: 20px;
     border-style: solid;
@@ -21,6 +23,7 @@ h3 {
     
 
 }
+
 .container {
     text-align: center;
 }
